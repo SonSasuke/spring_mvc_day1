@@ -45,10 +45,10 @@
         <small class="form-text text-muted"><form:errors path="bookDetails.numberOfPage" class="text-error" /></small>
     </div>
 
-<%--    <div class="form-group">--%>
-<%--        <label for="exampleInputEmail1">Publish Date (*)</label>--%>
-<%--        <form:input type="date" class="form-control col-md-6" path="bookDetails.publishDate"  />--%>
-<%--    </div>--%>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Publish Date (*)</label>
+        <form:input type="date" class="form-control col-md-6" path="bookDetails.publishDate"  />
+    </div>
     <div class="form-group">
         <label for="inputState">Category (*)</label>
         <form:select path="category.categoryId" class="form-control col-md-6">
@@ -62,7 +62,7 @@
     <button type="submit" class="btn btn-primary col-md-2">Save</button>
 
     </form:form>
-    <div>
+    </div>
 </body>
 
 </html>
